@@ -21,6 +21,5 @@ span {
 
     text-align: center;
 }
-.top, .footer { position: absolute; }
 .top { top: 0%; }
 .footer { bottom: 0%; }
