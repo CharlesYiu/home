@@ -12,6 +12,8 @@ h2 {
     color: khaki;
     font-size: 36px;
 }
+span { color: linen; }
+a { color: darkgrey; }
 .top {
     background-color: lightsalmon;
     padding:2.5%;
@@ -41,7 +43,6 @@ h2 {
     padding: 2.5%;
 }
 ul {
-    color: linen;
-    list-style-type: circle;
+    list-style-type: none;
     font-size: 24px;
 }
