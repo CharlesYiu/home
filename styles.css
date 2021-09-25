@@ -12,21 +12,18 @@ h2 {
     color: khaki;
     font-size: 36px;
 }
-span, a {
-    font-size: 24px;
-}
 .top {
     background-color: lightsalmon;
     padding:2.5%;
     top: 0%;
 }
 .footer {
-    color: lightslategray;
     background-color: linen;
     position: fixed;
     bottom: 0%;
     width: 100%;
     margin: 0%;
+    font-size: 24px;
 }
 .content {
     margin: 2.5;
@@ -45,4 +42,6 @@ span, a {
 }
 ul {
     color: linen;
+    list-style-type: circle;
+    font-size: 24px;
 }
