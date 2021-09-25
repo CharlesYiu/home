@@ -1,5 +1,5 @@
 body {
-    background-color: lightcoral;
+    background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 
     margin: 0%;
@@ -12,7 +12,7 @@ h2 {
     color: khaki;
     font-size: 36px;
 }
-span { color: linen; }
+span { color: lightslategrey; }
 a { color: darkgrey; }
 .top {
     background-color: lightsalmon;
