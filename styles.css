@@ -11,4 +11,16 @@ div {
 }
 h1 {
     color: whitesmoke;
+    font-size: 48px;
+
+    text-align: center;
 }
+span {
+    color: whitesmoke;
+    font-size: 24px;
+
+    text-align: center;
+}
+.top, .footer { position: absolute; }
+.top { top: 0%; }
+.footer { bottom: 0%; }
