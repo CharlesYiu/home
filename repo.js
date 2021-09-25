@@ -1,4 +1,4 @@
-import readFile from fs
+import {readFile} from fs
 let repoDiv = document.getElementById("repo")
 
 readFile("repoList.txt", (err, data) => {
