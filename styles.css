@@ -15,6 +15,7 @@ span, a {
     color: lightslategray;
     font-size: 24px;
 }
+.top, .footer, .bar{ margin: 0%; }
 .top {
     background-color: lightsalmon;
     padding:2.5%;
