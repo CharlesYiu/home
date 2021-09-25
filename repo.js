@@ -1,7 +1,8 @@
-let fs = require("fs")
+import readFile from fs
 let repoDiv = document.getElementById("repo")
 
-fs.readFile("repoList.txt", (err, data) => {
+readFile("repoList.txt", (err, data) => {
     if (err) throw err
     console.log(data)
+    repoDiv.innerHTML = data
 })
