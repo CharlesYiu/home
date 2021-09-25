@@ -8,26 +8,27 @@ div {
     text-align: center;
 }
 h1 {
-    color: whitesmoke;
+    color: linen;
     font-size: 48px;
 }
 span, a {
-    color: whitesmoke;
+    color: linen;
     font-size: 24px;
 }
 .top {
     background-color: lightsalmon;
-    padding: 5%;
+    padding:2.5%;
     top: 0%;
 }
 .footer {
+    color: lightslategray;
     background-color: linen;
-    padding: 5%;
+    padding: 2.5%;
     position: fixed;
     bottom: 0%;
 }
 .content {
-    padding: 5%;
+    padding: 2.5%;
     margin: 2.5;
 }
 .bar {
