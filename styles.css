@@ -13,7 +13,6 @@ h2 {
     font-size: 36px;
 }
 span, a {
-    color: lightslategray;
     font-size: 24px;
 }
 .top {
@@ -22,6 +21,7 @@ span, a {
     top: 0%;
 }
 .footer {
+    color: lightslategray;
     background-color: linen;
     position: fixed;
     bottom: 0%;
@@ -42,4 +42,7 @@ span, a {
 }
 .footer, .content, .top {
     padding: 2.5%;
+}
+ul {
+    color: linen;
 }
