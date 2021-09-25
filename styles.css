@@ -22,14 +22,15 @@ span, a {
     top: 0%;
 }
 .footer {
-    background-color: lightsalmon;
+    background-color: linen;
 
     position: fixed;
     bottom: 0%;
-    margin: 2.5%;
 }
 .content {
-    background-color: linen;
-
     margin: 2.5;
+}
+.bar {
+    width: 100%;
+    height: 12px;
 }
