@@ -15,18 +15,17 @@ span, a {
     color: lightslategray;
     font-size: 24px;
 }
-.top, .footer, .bar{ margin: 0%; }
 .top {
     background-color: lightsalmon;
     padding:2.5%;
     top: 0%;
 }
 .footer {
-    margin: 0%;
     background-color: linen;
     padding: 2.5%;
     position: fixed;
     bottom: 0%;
+    margin: 0%;
 }
 .content {
     padding: 2.5%;
