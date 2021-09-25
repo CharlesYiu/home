@@ -31,6 +31,8 @@ span, a {
     margin: 2.5;
 }
 .bar {
+    position: absolute;
     width: 100%;
     height: 12px;
+    background-color: linen;
 }
