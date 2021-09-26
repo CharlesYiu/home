@@ -9,10 +9,10 @@ h1 {
     font-size: 48px;
 }
 h2 {
-    color: khaki;
+    color: lightsalmon;
     font-size: 36px;
 }
-span { color: lightslategrey; }
+p { color: lightslategrey; }
 a { color: darkgrey; }
 .top {
     background-color: lightsalmon;
@@ -30,6 +30,9 @@ a { color: darkgrey; }
 .content {
     margin: 2.5;
 }
+.contentItem {
+    background-color: linen;
+}
 .bar {
     position: absolute;
     width: 100%;
@@ -46,4 +49,7 @@ ul {
     list-style-type: none;
     font-size: 24px;
     
+}
+.lightsalmon {
+    background-color: lightsalmon;
 }
