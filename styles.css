@@ -16,7 +16,6 @@ p { color: lightslategrey; }
 a { color: darkgrey; }
 .top {
     background-color: lightsalmon;
-    padding:2.5%;
     top: 0%;
 }
 .footer {
@@ -32,6 +31,7 @@ a { color: darkgrey; }
 }
 .contentItem {
     background-color: linen;
+    margin: 2.5%;
 }
 .bar {
     position: absolute;
