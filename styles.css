@@ -42,7 +42,7 @@ a { color: darkgrey; }
 .footer, .top {
     text-align: center;
 }
-.footer, .content, .top {
+.footer, .content, .top, .contentItem {
     padding: 2.5%;
 }
 ul {
