@@ -31,10 +31,10 @@ a { color: darkgrey; }
 }
 .contentItem {
     background-color: linen;
-    margin: 2.5%;
 }
 .bar {
     position: absolute;
+    left: 0%;
     width: 100%;
     height: 12px;
     background-color: linen;
