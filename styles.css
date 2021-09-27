@@ -18,11 +18,17 @@ a { color: darkgrey; }
     background-color: lightsalmon;
     top: 0%;
 }
+.normalFooter {
+    background-color: khaki;
+    width: 95%;
+    margin: 0%;
+    font-size: 24px;
+}
 .footer {
-    background-color: linen;
+    background-color: khaki;
     position: fixed;
     bottom: 0%;
-    width: 100%;
+    width: 95%;
     margin: 0%;
     font-size: 24px;
 }
@@ -39,10 +45,10 @@ a { color: darkgrey; }
     height: 12px;
     background-color: linen;
 }
-.footer, .top {
+.normalFooter, .footer, .top {
     text-align: center;
 }
-.footer, .content, .top, .contentItem {
+.normalFooter, .footer, .content, .top, .contentItem {
     padding: 2.5%;
 }
 ul {
@@ -52,4 +58,14 @@ ul {
 }
 .lightsalmon {
     background-color: lightsalmon;
+}
+button {
+    border-radius: 0%;
+    border-style: none;
+    background-color: lightsalmon;
+    padding: 1.25%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    font-size: 36px;
+    color: linen;
 }

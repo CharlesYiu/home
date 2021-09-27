@@ -26,9 +26,12 @@
             </ul>
         </div>
     </div>
-    <div class="bar lightsalmon footer"></div>
-    <div class="footer">
+    <div class="normalFooter" id="normalFooter">
         <p>This website is licensed with the <a href="https://mit-license.org" target="_blank" rel="noopener noreferrer">MIT License</a>, and you can view it <a href="https://github.com/charlesyiu/home/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">here</a>.</p>
+    </div>
+    <div class="footer" id="footer">
+        <p>This website is licensed with the <a href="https://mit-license.org" target="_blank" rel="noopener noreferrer">MIT License</a>, and you can view it <a href="https://github.com/charlesyiu/home/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">here</a>.</p>
+        <button onclick="document.getElementById('footer').hidden = true; document.getElementById('normalFooter').hidden = false;">Okay</button>
     </div>
     <script src="script.js"></script>
 </body>
