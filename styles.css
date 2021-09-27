@@ -22,15 +22,14 @@ a { color: darkgrey; }
 .normalFooter {
     background-color: khaki;
     width: 95%;
-    margin: 0%;
     font-size: 24px;
 }
 .footer {
     background-color: khaki;
     position: fixed;
-    bottom: 0%;
+    top: 17.5%;
     width: 95%;
-    margin: 0%;
+    height: 100%;
     font-size: 24px;
 }
 .contentItem {
