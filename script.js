@@ -20,13 +20,13 @@ fetch("https://raw.githubusercontent.com/charlesyiu/charlesyiu/main/README.md")
         console.log(error);
     });
 function onYouTubePlayerAPIReady() {
-    player = new YT.Player('video-frame', {
-        width: '100%',
-        height: '315px',
-        videoId: 'xvFZjo5PgG0',
-        host: 'https://www.youtube-nocookie.com',
+    player = new YT.Player("video-frame", {
+        width: "100%",
+        height: "315px",
+        videoId: "dQw4w9WgXcQ",
+        host: "https://www.youtube-nocookie.com",
         events: {
-            'onStateChange': onPlayerStateChange
+            "onStateChange": onPlayerStateChange
         }
     });
 }
